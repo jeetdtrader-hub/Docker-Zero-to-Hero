@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM python:3.12-slim    # ~130MB instead of 800MB+
 
 # Set the working directory in the image
 WORKDIR /app
